@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+body {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+#main{
+	width: 400px;
+	height: 200px;
+	background-color: red;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#head {
+	text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    display: inline-block;
+    font-size: 180px;
+    color: rgb(69, 27, 236);
+    text-align: center;
+    letter-spacing: -5px;
+    position: relative;
+    left: 25%;
+    transition: all 1s ease-in-out;
+    top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+#slogan{
+	text-align: center;
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;    
+    font-size: 20px;
+    text-align: center;
+    color: purple;
+}
