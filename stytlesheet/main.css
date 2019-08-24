@@ -56,8 +56,10 @@ body {
 
 .header-right {
   float: right;
-  margin-top: 12px;
+  margin-top: 10px;
+  margin-right: 20px;
 }
+
 
 @media screen and (max-width: 500px) {
   .header a {
