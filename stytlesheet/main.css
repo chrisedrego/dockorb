@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
 
 * {box-sizing: border-box;
 margin: 0;
@@ -104,4 +105,8 @@ body {
   color: white;
   text-align: center;
   box-shadow: 1px 1px 6px 1px #888888;
+}
+
+.footer .love {
+  color: maroon;
 }
