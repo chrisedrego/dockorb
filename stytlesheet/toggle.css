@@ -53,7 +53,7 @@
   
   /* Rounded sliders */
   .slider.round {
-    border-radius: 34px;
+    border-radius: 100px;
   }
   
   .slider.round:before {

@@ -8,6 +8,9 @@
     <!-- SEO Meta Tags -->
     <link rel="stylesheet" type="text/css" href="./stytlesheet/main.css">
     <link rel="stylesheet" type="text/css" href="./stytlesheet/toggle.css">
+    <link rel="stylesheet" type="text/css" href="./stytlesheet/sidenav.css">
+    <link rel="stylesheet" type="text/css" href="./stytlesheet/mainpage.css">
+    <link rel="stylesheet" type="text/css" href="./stytlesheet/command.css">
     <link rel="icon" type="image/png" href="images/logo/logo-final.png" />
     <title>Dockerorb | Docker File Generator</title>
 </head>
@@ -24,9 +27,19 @@
               </label>
           </div>
         </div>
-    <div id="sidepane"></div>
-    <div id="mainpage"></div>
-    <div id="previewpane"></div>
+        <div class="sidenav">
+          <input type="text" placeholder="Search..." id="sidenav-search"/>
+          <div class="cm" draggable="true" >FROM</div>
+          <div class="cm" draggable="true" >MAINTAINER</div>
+          <div class="cm" draggable="true" >RUN</div>
+          <div class="cm" draggable="true" >CMD</div>
+          <div class="cm" draggable="true" >LABEL</div>
+          <div class="cm" draggable="true" >EXPOSE</div>
+          <div class="cm" draggable="true" >COPY</div>
+          <div class="cm" draggable="true" >ADD</div>   
+          <div class="cm" draggable="true" >ENTRYPOINT</div>   
+        </div>
+        <div class="mainpage">A</div>
     <div id="footer"></div>
 </body>
 </html>
