@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap');
 
 * {box-sizing: border-box;
 margin: 0;
 padding: 0px;
+
 }
+
+
         
 body { 
   margin: 0;
@@ -90,6 +94,14 @@ body {
 
 }
 
-#footer{
-
+.footer {
+  position: fixed;
+  padding: 5px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:  #f2f1f1;;
+  color: white;
+  text-align: center;
+  box-shadow: 1px 1px 6px 1px #888888;
 }
