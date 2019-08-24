@@ -9,4 +9,5 @@
 .cm:hover {
     color: #f1f1f1;
     cursor: grab;
+    font-size: 16px;
   }

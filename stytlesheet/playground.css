@@ -1,0 +1,36 @@
+.playground{
+    background-color: #111;
+    height: 100%;
+    width: 60%;
+    border: 1px solid black;
+    color: white;
+}
+    
+  .fill {
+  background-color: red;
+    position: relative;
+    height: 30px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+  }
+  
+  .hold {
+    border: solid 5px red;
+  }
+  
+  .empty {
+    display: block;
+    height: 60px;
+    width: 160px;
+    margin: 10px;
+    border: solid 3px salmon;
+    background: white;
+  }
+  
+  .hovered {
+    background: #f4f4f4;
+    border-style: dashed;
+  }
+  
